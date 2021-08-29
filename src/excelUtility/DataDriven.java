@@ -36,7 +36,6 @@ public class DataDriven {
 					Cell value = cell.next();
 					if (value.getStringCellValue().equalsIgnoreCase("testcase")) {
 						column =k;
-						
 					}
 					k++;
 				}

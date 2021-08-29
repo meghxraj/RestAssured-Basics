@@ -14,12 +14,9 @@ public class jsonHasMapRequest {
 
 	@Test
 	public void datadrivenRequest() throws IOException {
-		
 		DataDriven dd = new DataDriven();
 		ArrayList data = dd.getData("AddBook","RestAPI");
-		
 		HashMap<String,Object> jsonMap = new HashMap<String,Object>();
-		
 		jsonMap.put("name", data.get(1));
 		jsonMap.put("isbn", data.get(2));
 		jsonMap.put("aisle",data.get(3));
