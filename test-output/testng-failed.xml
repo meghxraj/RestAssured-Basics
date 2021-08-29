@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="pojoDeSelearilization.serialization">
+      <class name="jsonHasMapRequest">
         <methods>
-          <include name="serial"/>
+          <include name="datadrivenRequest"/>
         </methods>
-      </class> <!-- pojoDeSelearilization.serialization -->
+      </class> <!-- jsonHasMapRequest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
