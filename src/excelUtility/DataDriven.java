@@ -49,9 +49,7 @@ public class DataDriven {
 							if(c.getCellType()==CellType.STRING)
 								dataList.add(c.getStringCellValue());
 							else
-								dataList.add(NumberToTextConverter.toText(c.getNumericCellValue()));
-								
-								
+								dataList.add(NumberToTextConverter.toText(c.getNumericCellValue()));	
 						}
 					}
 				}

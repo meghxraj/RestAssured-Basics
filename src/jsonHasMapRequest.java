@@ -25,7 +25,6 @@ public class jsonHasMapRequest {
 		//jsonMap.put("key",anotherMap);
 		
 		RestAssured.baseURI = "https://rahulshettyacademy.com";
-		
 		String response =given().log().all().header("Content-Type","application/json")
 		.body(jsonMap)
 		.when().post("/Library/Addbook.php")
